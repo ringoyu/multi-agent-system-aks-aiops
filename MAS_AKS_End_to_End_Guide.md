@@ -7,6 +7,7 @@ This step-by-step guide walks you through deploying the MAS app from [Azure-Samp
 ## Prerequisites
 
 - Azure subscription
+- Azure services (AKS, Azure monitor, Azure container registry)
 - Azure CLI (`az`)
 - Docker CLI (`docker`)
 - kubectl (`kubectl`)
