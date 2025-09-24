@@ -70,10 +70,3 @@
 - [Automate with Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
 
 ---
-
-## Summary Table
-
-| Approach                      | What You Do                              | Outcome                                |
-|-------------------------------|------------------------------------------|----------------------------------------|
-| Built-in AIOps (Azure Monitor)| Use portal features, dynamic thresholds  | Out-of-box anomaly detection, insights |
-| Custom ML Pipeline            | Export data, build ML model, automate    | Advanced analysis, custom actions      |
