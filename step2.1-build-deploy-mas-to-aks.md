@@ -6,7 +6,7 @@ This guide will walk you through building the MAS Docker image, pushing it to Az
 
 ## **A. Prepare Your Environment**
 
-### 1. **Open the tools you’ll need:**
+### 1. **Prerequisites:**
 - **Azure Portal** ([portal.azure.com](https://portal.azure.com)) (for ACR, AKS, secrets, monitoring)
 - **Local Terminal** (Command Prompt, PowerShell, or Mac/Linux Terminal)
 - **Docker Desktop** installed and running
