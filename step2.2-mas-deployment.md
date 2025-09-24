@@ -1,6 +1,6 @@
-# Step 2 (E-G): Deploy MAS to AKS – Secrets, Deployment, Verification
+# Step 2.2 Deploy MAS to AKS – Secrets, Deployment, Verification
 
-This markdown covers Steps E–G for deploying MAS to AKS, including environment secret creation, actual deployment, and verification steps.
+Deploying MAS to AKS, including environment secret creation, actual deployment, and verification steps.
 
 ---
 
