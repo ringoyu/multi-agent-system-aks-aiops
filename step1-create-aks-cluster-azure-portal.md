@@ -47,6 +47,11 @@ A resource group is a container for your Azure resources.
 8. Click **Next: Tags** (optional).
 9. Click **Review + create**.
 10. Review settings, then click **Create**.
+*create Azure container registry and Azure monitor here is recommonded.
+<img width="1416" height="562" alt="image" src="https://github.com/user-attachments/assets/b924db1f-f639-4039-aa57-c31ce3dea263" />
+<img width="1040" height="774" alt="image" src="https://github.com/user-attachments/assets/0854228f-4027-40b8-b516-227fc48bcae8" />
+<img width="926" height="480" alt="image" src="https://github.com/user-attachments/assets/39fc6c74-0e80-4955-85f4-74cec7ef0bcf" />
+
 
 *Note: This will take a few minutes to deploy!*
 
