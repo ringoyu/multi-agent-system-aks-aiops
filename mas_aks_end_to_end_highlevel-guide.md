@@ -1,6 +1,6 @@
 # MAS (Multi-Agent System) on AKS: End-to-End Guide
 
-This step-by-step guide walks you through deploying the MAS app from [Azure-Samples/agentic-aiops-semantic-kernel](https://github.com/Azure-Samples/agentic-aiops-semantic-kernel) to Azure Kubernetes Service (AKS), wiring up Azure Monitor alerts, and validating the MAS agent’s automated response.
+This step-by-step guide walks you through deploying the MAS app from sub-repo 'agentic-aiops-semantic-kernel-main'to Azure Kubernetes Service (AKS), wiring up Azure Monitor alerts, and validating the MAS agent’s automated response.
 
 ---
 
@@ -11,8 +11,7 @@ This step-by-step guide walks you through deploying the MAS app from [Azure-Samp
 - Azure CLI (`az`)
 - Docker CLI (`docker`)
 - kubectl (`kubectl`)
-- Python 3.12+
-- [GitHub repo cloned locally](https://github.com/Azure-Samples/agentic-aiops-semantic-kernel)
+- Github
 
 ---
 
