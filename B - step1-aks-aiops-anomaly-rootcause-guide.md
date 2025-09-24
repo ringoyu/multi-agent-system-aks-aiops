@@ -1,4 +1,4 @@
-# How to Find Anomalies and Root Cause Analyses in Azure Monitor (AKS, Built-In AIOps)
+# Find Anomalies and Root Cause Analyses in Azure Monitor (AKS, Built-In AIOps features)
 
 ## 1. Check AKS Data is Sent to Log Analytics
 
@@ -97,13 +97,13 @@ If you don’t see anomalies or RCA sections, make sure:
 - You have enough data flowing (AKS is active, logs/metrics are ingested).
 - You’ve waited long enough for Monitor to analyze and baseline metrics (sometimes a few hours/days).
 
----
-
-## Summary Table
-
 | Feature          | Where to Find         | Description                                 |
 |------------------|----------------------|---------------------------------------------|
 | Container Insights| AKS > Insights       | Health, performance, alerts, anomalies      |
 | Dynamic Thresholds| Alerts section       | ML-based anomaly alerts                     |
 | Smart Detection   | App Insights         | Smart issue detection, sometimes RCA        |
 | Root Cause Analysis| Alert details       | Impact summary, suspected cause, links      |
+---
+
+
+
