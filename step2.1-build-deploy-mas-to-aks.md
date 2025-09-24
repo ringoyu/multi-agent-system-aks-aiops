@@ -8,7 +8,7 @@ This guide will walk you through building the MAS Docker image, pushing it to Az
 
 ### 1. **Prerequisites:**
 - **Azure Portal** ([portal.azure.com](https://portal.azure.com)) (for ACR, AKS, secrets, monitoring)
-- **Local Terminal** (Command Prompt, PowerShell, or Mac/Linux Terminal)
+- **Local Terminal** (Command Prompt, PowerShell, or Mac/Linux Terminal. VS Code is recommended)
 - **Docker Desktop** installed and running
 - **Git** installed
 - **kubectl** installed ([how to install](https://kubernetes.io/docs/tasks/tools/))
