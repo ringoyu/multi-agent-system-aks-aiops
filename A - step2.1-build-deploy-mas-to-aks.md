@@ -59,7 +59,7 @@ docker push masdemoregistry.azurecr.io/mas-app:latest
 
 ## **D. Prepare Kubernetes Manifests**
 
-### 1. **Create the Deployment manifest (`mas-deployment.yaml`)**
+### 1. **Create the Deployment manifest (`mas-deployment.yaml`)(`mas-service.yaml`)**
 
 ````yaml name=mas-deployment.yaml
 apiVersion: apps/v1
