@@ -39,7 +39,7 @@
 
 ---
 
-## 4. Investigate Smart Detection (Application Insights)
+## 4. (optional)Investigate Smart Detection (Application Insights)
 
 > If your AKS workloads use **Application Insights** (for .NET/Java apps), you get additional AIOps features:
 
