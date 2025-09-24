@@ -70,4 +70,4 @@ kubectl get pods -o wide
 
 ---
 
-**Ready for Step 3 (set up alert and trigger MAS)?**
+**Ready for Step 3 (set up alert and trigger MAS)**
