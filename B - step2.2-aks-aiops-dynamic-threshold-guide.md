@@ -1,4 +1,4 @@
-# How to Set Up and See Dynamic Thresholds / Anomaly Detection in Azure Monitor for AKS
+# How to Set Up Dynamic Thresholds / Anomaly Detection in Azure Monitor for AKS
 
 ## 1. Go to Azure Monitor > Alerts
 
@@ -18,8 +18,6 @@
 3. In the condition configuration, look for the **Threshold type** option.
 4. Select **Dynamic** (instead of Static).
     - You’ll see a note: *“Thresholds are determined dynamically using machine learning.”*
-
-**Screenshot Guidance:**  
 - Condition blade > Threshold type dropdown > Choose “Dynamic”
 
 ## 4. Complete the Alert Rule
@@ -42,7 +40,7 @@
 
 ---
 
-## Application Insights: Smart Detection
+## (optional)Application Insights: Smart Detection
 
 - If using Application Insights, failures/performance tabs will show “Smart Detection” badges for anomalies.
 - This is **only for workloads with App Insights installed**.
@@ -67,6 +65,3 @@
 
 ---
 
-## Summary
-
-**You must create an alert rule using “Dynamic threshold” to see anomaly detection—otherwise, these features won’t appear automatically in AKS dashboards or insights.**
