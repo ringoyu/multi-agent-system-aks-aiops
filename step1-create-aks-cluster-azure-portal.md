@@ -74,4 +74,4 @@ If you want to manage your cluster via command line later:
 
 ---
 
-**Ready for Step 2: Build and Deploy MAS to AKS?**
+**Now you are Ready for Step 2: Build and Deploy MAS to AKS!
