@@ -66,6 +66,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mas-app
+  labels:
+    app: mas-app
 spec:
   replicas: 1
   selector:
@@ -77,12 +79,27 @@ spec:
         app: mas-app
     spec:
       nodeSelector:
-        agentpool: userpool           # Ensures deployment goes to the user node pool. Replace 'userpool' if your pool is named differently.
+        kubernetes.azure.com/agentpool: userpool
       containers:
       - name: mas-app
         image: masdemoregistry.azurecr.io/mas-app:latest
+        ports:
+        - containerPort: 8080
         envFrom:
         - secretRef:
             name: mas-env-secret
-        ports:
-        - containerPort: 8080
+````
+
+````yaml name=mas-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mas-app-service
+spec:
+  selector:
+    app: mas-app
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: LoadBalancer
